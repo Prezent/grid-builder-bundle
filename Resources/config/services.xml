@@ -6,8 +6,8 @@
 >
 
     <parameters>
-        <parameter key="prezent_grid.registry.class">Prezent\GridBuilderBundle\Factory\GridRegistry</parameter>
-        <parameter key="prezent_grid.factory.class">Prezent\GridBuilderBundle\Factory\GridFactory</parameter>
+        <parameter key="prezent_grid.registry.class">Prezent\Bundle\GridBuilderBundle\Factory\GridRegistry</parameter>
+        <parameter key="prezent_grid.factory.class">Prezent\Bundle\GridBuilderBundle\Factory\GridFactory</parameter>
     </parameters>
 
     <services>

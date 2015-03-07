@@ -7,9 +7,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Prezent\GridBuilderBundle\Tests\Factory;
+namespace Prezent\Bundle\GridBuilderBundle\Tests\Factory;
 
-use Prezent\GridBuilderBundle\Factory\GridRegistry;
+use Prezent\Bundle\GridBuilderBundle\Factory\GridRegistry;
 
 class GridRegistryTest extends \PHPUnit_Framework_TestCase
 {

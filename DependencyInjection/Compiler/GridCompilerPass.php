@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Prezent\GridBuilderBundle\DependencyInjection\Compiler;
+namespace Prezent\Bundle\GridBuilderBundle\DependencyInjection\Compiler;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;

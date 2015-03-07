@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Prezent\GridBuilderBundle\DependencyInjection;
+namespace Prezent\Bundle\GridBuilderBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

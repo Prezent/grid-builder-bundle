@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Prezent\GridBuilderBundle\Factory;
+namespace Prezent\Bundle\GridBuilderBundle\Factory;
 
 use Doctrine\ORM\QueryBuilder;
 use Kitpages\DataGridBundle\Grid\Grid;

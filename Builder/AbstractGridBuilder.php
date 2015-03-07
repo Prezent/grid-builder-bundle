@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Prezent\GridBuilderBundle\Builder;
+namespace Prezent\Bundle\GridBuilderBundle\Builder;
 
 use Kitpages\DataGridBundle\Grid\GridConfig;
 
