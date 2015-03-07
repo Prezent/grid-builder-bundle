@@ -1,0 +1,36 @@
+{
+    "name": "prezent/grid-builder-bundle",
+    "description": "Symfony2 bundle to provide builders on top of the kitpages/data-grid-bundle.",
+    "keywords": [
+        "grid",
+        "builder",
+        "symfony2",
+        "bundle"
+    ],
+    "homepage": "http://www.prezent.nl",
+    "authors": [{
+        "name": "Prezent Internet B.V.",
+        "email": "github@prezent.nl"
+    }],
+    "license": "MIT",
+    "support": {
+        "wiki": "https://github.com/prezent/grid-builder-bundle/tree/master/Resources/doc",
+        "issues": "https://github.com/prezent/grid-builder-bundle/issues",
+        "source": "https://github.com/prezent/grid-builder-bundle"
+    },
+    "require": {
+        "kitpages/data-grid-bundle": "~2.4",
+        "symfony/symfony": "~2.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3.7"
+    },
+    "autoload": {
+        "psr-4": { "Prezent\\GridBuilderBundle\\": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
