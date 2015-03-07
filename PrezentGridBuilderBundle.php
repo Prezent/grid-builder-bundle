@@ -9,7 +9,7 @@
 
 namespace Prezent\Bundle\GridBuilderBundle;
 
-use Prezent\Bundle\GridBuilderBundle\DependencyInjection\Compiler\GridCompilerPass;
+use Prezent\Bundle\GridBuilderBundle\DependencyInjection\Compiler\GridBuilderCompilerPass;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
@@ -21,11 +21,11 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
 class PrezentGridBuilderBundle extends Bundle
 {
     /**
-     * @{inheritDoc}
+     * {@inheritDoc}
      */
     public function build(ContainerBuilder $container)
     {
         parent::build($container);
-        $container->addCompilerPass(new GridCompilerPass());
+        $container->addCompilerPass(new GridBuilderCompilerPass());
     }
 }
